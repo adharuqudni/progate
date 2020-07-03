@@ -1,0 +1,87 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-bar {
+  background-color: rgb(0, 0, 0, 0.9);
+  height: 45px;
+  width: 100%;
+  box-shadow: 0px 5px gray;
+  position: fixed;
+  z-index: 10;
+}
+.nav-bar h2 {
+  margin: auto;
+  padding: 10px;
+  color: white;
+  text-shadow: 3px 3px grey;
+}
+.left-nav-bar {
+  float: left;
+  position: relative;
+  left: 350px;
+}
+.right-nav-bar {
+  float: right;
+  margin: 0px 20px;
+  position: relative;
+  padding: 0px 15px;
+  right: 250px;
+  margin-top: 2.5px;
+}
+.right-nav-bar span {
+  padding: 10px 15px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+}
+.right-nav-bar span:hover {
+  background-color: rgb(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+.right-nav-bar span:active {
+  background-color: rgb(255, 255, 255, 0.3);
+  padding: 2.5px 15px;
+  border-radius: 5px;
+}
+.right-nav-bar i {
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+.main {
+  background-color: rgba(240, 222, 142, 0.692);
+  height: 100%;
+  min-height: 1200px;
+  width: 100%;
+}
+.footer {
+  background-color: whitesmoke;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  box-shadow: 0px -5px rgb(0, 0, 0, 0.9);
+}
+.text-box {
+  width: 15%;
+  margin: 10px 25px;
+}
+.text-box h1 {
+  text-shadow: 2px 2px grey;
+}
+.social-icon {
+  font-size: 120px;
+  margin: 30px;
+  position: relative;
+  left: 25px;
+}
+.social-icon i {
+  margin: 25px;
+  cursor: pointer;
+  text-shadow: 5px 5px grey;
+}
